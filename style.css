@@ -49,14 +49,20 @@
   @media screen and (max-width: 1024px) {
     .text {
       font-size: 2rem;
-      right: 50%;
-      bottom: 25%;
-      transform: translate(50%, 50%);
+      display: flex;
+        bottom: 40%;
+         right: 50%;
+         transform: translate(50%, 50%);
+         /* justify-content: center;
+         align-items: center; */
     }
     .links {
-        right: 50%;
+        display: flex;
         bottom: 15%;
+         /* right: 50%; */
          transform: translate(50%, 50%);
+         /* justify-content: center;
+         align-items: center; */
 
       }
   }

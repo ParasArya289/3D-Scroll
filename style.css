@@ -45,6 +45,40 @@
     bottom: 40%;
     transform: translate(-20%, -40%);
   }
+
+  #loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+  }
+  /* #loader-text{
+    font-weight: 200;
+    font-size: large;
+    margin-top: 5rem;
+    color:rgb(255, 255, 255);
+  } */
+  @keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+   
+  .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: rgb(109, 109, 109);
+    animation: spinner .6s linear infinite;
+  }
   
   @media screen and (max-width: 1024px) {
     .text {

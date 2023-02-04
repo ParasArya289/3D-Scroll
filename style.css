@@ -16,14 +16,6 @@ canvas {
   height: 100vh;
   object-fit: cover;
 }
-
-/* .details {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-  } */
 .link {
   text-decoration: none;
   padding: 1rem;
@@ -92,15 +84,10 @@ canvas {
     bottom: 40%;
     right: 50%;
     transform: translate(50%, 50%);
-    /* justify-content: center;
-         align-items: center; */
   }
   .links {
     display: flex;
     bottom: 15%;
-    /* right: 50%; */
     transform: translate(50%, 50%);
-    /* justify-content: center;
-         align-items: center; */
   }
 }

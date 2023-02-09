@@ -49,13 +49,12 @@ canvas {
   height: 100vh;
   position: fixed;
   z-index: 3;
-  background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(15px);
+  background-image: radial-gradient(circle,rgb(38, 60, 103)15%, rgb(17, 45, 92)50%,rgb(8, 32, 82));
 }
 #loader-text {
   font-weight: 200;
   font-size: large;
-  color: rgb(255, 255, 255);
+  color: white
 }
 @keyframes spinner {
   to {
@@ -90,4 +89,11 @@ canvas {
     bottom: 15%;
     transform: translate(50%, 50%);
   }
+  
+}
+
+@media screen and (max-width:900px) {
+    .spinner:before{
+        right:45%
+      }
 }

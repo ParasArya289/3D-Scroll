@@ -78,11 +78,11 @@ canvas {
 
 @media screen and (max-width: 1024px) {
   .text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     bottom: 40%;
-    right: 50%;
-    transform: translate(50%, 50%);
+    right: 40%;
+    transform: translate(27%, 70%);
   }
   .links {
     display: flex;
@@ -94,6 +94,6 @@ canvas {
 
 @media screen and (max-width:900px) {
     .spinner:before{
-        right:45%
+        right:43%
       }
 }
